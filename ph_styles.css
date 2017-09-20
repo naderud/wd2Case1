@@ -26,7 +26,7 @@
 
 
 /* Structural Styles */
-
+/*color s33 pg 101*/
 html {
   background-color: hsl(91, 8%, 56%);
 	font-family: Palatino Linotype, Book Antiqua, Palatino serif;
@@ -45,7 +45,7 @@ p  {
 	margin: 0px;
 	padding: 5px, 25px, 25px, 25px;
 }
-
+/*text align page 128*/
 body > p {
 	font-size: 1.1em;
 	text-align: center;
@@ -68,11 +68,57 @@ nav a {
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
+/*see page 150*/
+nav > ul > li > a:link, nav > ul > li > a:visited {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	background-color: hsla(0, 0%, 42%, 0.4);
+}
 
+nav > ul > li > a:active, nav > ul > li > a:hover {
+	color: hsla(0, 0%, 100%, 0.7);
+	background-color: hsl(0, 0%, 42%, 0.7);
+}
 
 /* Section Styles */
 
+section h1.playbill {
+	font-size: 3em;
+	font-weight: normal;
+	margin: (0,0,0,0);
+	padding: (20, 0, 10, 20);
+}
 
+section#play1.playbill {
+	background-color: hsl(240, 100%, 88%);
+}
 
+section#play2.playbill {
+	background-color: hsl(25, 88%, 73%);
+}
+
+section#play3.playbill {
+	background-color: hsl(0, 100%, 75%);
+}
+
+section#play4.playbill {
+	background-color: hsl(296, 86%, 86%);
+}
+
+section#play1 h1 {
+	font-family: Champagne, cursive;
+}
+
+section#play2 h1 {
+	font-family: Grunge,'Times New Roman', Times, serif;
+}
+
+section#play3 h1 {
+	font-family: Impact, Charcoal, sans-serif;
+}
+
+section#play4 h1 {
+	font-family: Dobkin, cursive;
+}
 
 /* Description List Styles */
