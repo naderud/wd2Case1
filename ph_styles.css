@@ -27,6 +27,7 @@
 
 /* Structural Styles */
 /*color s33 pg 101*/
+
 html {
   background-color: hsl(91, 8%, 56%);
 	font-family: Palatino Linotype, Book Antiqua, Palatino serif;
@@ -41,18 +42,20 @@ header {
 	background-color: black;
 }
 
-p  {
+p {
 	margin: 0px;
-	padding: (5px, 25px, 25px, 25px);
+	padding: 5px 25px 25px 25px;
 }
 
 /*text align page 128*/
-
-body > p {
+body p {
 	font-size: 1.1em;
 	text-align: center;
 	padding-top: 10px;
 	padding-bottom: 10px;
+}
+section p {
+	text-align: left;
 }
 
 address {
@@ -84,11 +87,11 @@ nav > ul > li > a:active, nav > ul > li > a:hover {
 
 /* Section Styles */
 
-section h1.playbill {
+section.playbill h1 {
 	font-size: 3em;
 	font-weight: normal;
-	margin: (0,0,0,0);
-	padding: (20, 0, 10, 20);
+	margin: 0;
+	padding: 20px 0px 10px 20px;
 }
 
 section#play1.playbill {
@@ -124,3 +127,15 @@ section#play4 h1 {
 }
 
 /* Description List Styles */
+
+dt li{
+	font-size: 1.3em;
+	font-weight: bold;
+  color: hsla(0, 0%, 0%, 0.4);
+}
+
+dd {
+	font-size: 1.3em;
+	margin-left: 0px;
+	margin-bottom: 10px;
+}
