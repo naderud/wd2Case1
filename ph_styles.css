@@ -1,8 +1,8 @@
 @charset "utf-8";
 @font-face {
 	font-family: Champagne;
-	src: url('cac_champagne.woff') format('woff'),
-			 url('cac_champagne.ttf') format('truetype');
+			src: url('cac_champagne.woff') format('woff'),
+			 		 url('cac_champagne.ttf') format('truetype');
   font-family: Grunge;
      	src: url('1942.woff') format('woff'),
      			 url('1942.ttf') format('truetype');
@@ -17,7 +17,7 @@
    Case Problem 1
 
    PHCT Typographic Style Sheet
-   Author: Nadean Rudolph
+   Author: Nadean L Rudolph
    Date:   9-14-17
 
    Filename: ph_styles.css
@@ -69,7 +69,7 @@ address {
 /* Navigation Styles */
 
 nav a {
-	font-family: Trebuchet MS, Helvetica, sans-serif;
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
@@ -128,7 +128,7 @@ section#play4 h1 {
 
 /* Description List Styles */
 
-dt li{
+dt li {
 	font-size: 1.3em;
 	font-weight: bold;
   color: hsla(0, 0%, 0%, 0.4);
